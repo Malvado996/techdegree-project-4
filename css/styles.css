@@ -397,7 +397,7 @@ th {
     text-decoration: none;
     color: #006494; }
     .nav__item a:hover {
-      color: #c0bcb5; }
+      color: #eaeaea; }
   .nav__item:hover {
     background-color: #00798c; }
 @media (min-width: 769px) {
