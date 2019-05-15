@@ -1,0 +1,29 @@
+
+// Nav Component ====================================================================
+
+.nav {
+   &__item {
+     max-width: em(300px);
+     margin-left:auto;
+     margin-right: auto;
+     padding: em(5px) em(20px);
+     border-radius: em(10px);
+
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $accent;
+          &:hover {
+            color: $hover-font;
+          }
+        }
+
+        &:hover {
+          background-color: $hover-background;
+        }
+      }
+
+    @include mq($break) {
+    @include flex($dir: row, $just: flex-end,);
+    }
+}

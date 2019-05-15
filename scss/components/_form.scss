@@ -1,0 +1,28 @@
+
+// Form Elements ================================================================
+
+.form {
+  margin: auto;
+  max-width: em(250px);
+  border: em(5px) solid $accent;
+  border-radius: em(5px);
+
+    & legend {
+      text-align: left;
+      margin: em(8px);
+    }
+
+    &__label {
+      &--hidden {
+        display: none;
+      }
+    }
+
+    &__input {
+      margin: em(8px);
+      border-style: none;
+      border-bottom: 4px solid $iceberg;
+      border-radius: em(6px);
+      padding: em(4px)
+    }
+}

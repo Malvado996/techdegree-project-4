@@ -1,0 +1,22 @@
+
+// Images =======================================================================
+
+.img {
+
+  &--logo {
+    display: block;
+    width: em(162px);
+    margin: auto;
+  }
+
+  &--frame {
+    border: em(6px) solid $accent;
+    border-radius: em(6px);
+  }
+
+  &--avatar {
+    margin: em(8px);
+    border: em(6px) solid $accent;
+    border-radius: em(100px);
+  }
+}

@@ -1,0 +1,35 @@
+
+// Layout Styles ===================================================================
+
+.grid__row {
+  @extend %max-width;
+}
+
+
+.centered {
+  margin: auto;
+}
+
+.blockquote {
+  font-size: map-get($font-size, med);
+  font-style: italic;
+  border-left: em(5px) solid $accent;
+  border-radius: em(8px);
+  padding-left: em(10px);
+}
+
+// Headlines =========================================================================
+
+.headline {
+
+  &--primary{
+    font-size: map-get($font-size, xl);
+    color: $paris-green;
+  }
+
+  &--secondary{
+    @extend %max-width;
+    font-size: map-get($font-size, sm);
+    padding-left: em(10px);
+  }
+}

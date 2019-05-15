@@ -1,0 +1,69 @@
+
+// Body ======================================================
+
+$base__font-size       : 16px;
+$max-width             : 1200px;
+$break                 : 769px;
+
+$font-size: (
+  'base'      : 1em,
+  'sm'        : 1.25em,
+  'med'       : 1.563em,
+  'lg'        : 1.953em,
+  'xl'        : 2.441em,
+  'xxl'       : 3.052em,
+  'xxxl'      : 3.815em,
+);
+
+// Color Pallette ============================================
+
+$isabelline             : #eaeaea;
+$smoky-black            : #070707;
+$rich-black             : #0a1128;
+$jet                    : #353535;
+$alice-blue             : #f4faff;
+$maximum-yellow-red     : #edae49;
+$paris-green            : #53dd6c;
+$british-racing-green   : #034732;
+$myrtle-green           : #32746d;
+$dark-terra-cotta       : #d1495b;
+$metallic-seaweed       : #00798c;
+$iceberg                : #74b3ce;
+$b-dazzled-blue         : #30638e;
+$dark-imperial-blue     : #003d5b;
+$dark-midnight-blue     : #0d3b66;
+$sea-blue               : #006494;
+$pale-aqua              : #b9d6f2;
+$x11-gray               : #c0bcb5;
+$deep-saffron           : #ffa630;
+$light-sea-green        : #28afb0;
+
+// Color Components =============================================
+
+$text                   : $rich-black;
+$accent                 : $sea-blue;
+$background-color       : $alice-blue;
+$hover-font             : $x11-gray;
+$hover-background       : $metallic-seaweed;
+$white                  : $isabelline;
+// Grid Colors ===============================================
+
+$grid-colors: (
+  '3'        : $metallic-seaweed,
+  '4'        : $iceberg,
+  '5'        : $british-racing-green,
+  '6'        : $myrtle-green,
+  '7'        : $dark-terra-cotta,
+  '8'        : $sea-blue,
+  '12'       : $b-dazzled-blue,
+);
+
+// Button Colors =============================================
+
+$button-colors: (
+  'default'   : $iceberg,
+  'success'   : $paris-green,
+  'error'     : $dark-terra-cotta,
+  'warning'   : $deep-saffron,
+  'info'      : $light-sea-green,
+);
