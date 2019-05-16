@@ -5,8 +5,17 @@
 body {
   color: $text;
   background-color: $alice-blue;
+  font-family: $font-family-secondary;
 }
 
 ul {
   list-style-type: none;
+}
+
+h1 {
+  @extend %font-prim;
+}
+
+h2 {
+  @extend %font-sec;
 }

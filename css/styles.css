@@ -1,10 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto");
 .grid__row, .headline--secondary {
   max-width: 1200px;
   margin: auto; }
 
+h1 {
+  font-family: "Raleway", sans-serif; }
+
+h2 {
+  font-family: "Roboto", sans-serif; }
+
 body {
   color: #0a1128;
-  background-color: #f4faff; }
+  background-color: #f4faff;
+  font-family: "Roboto", sans-serif; }
 
 ul {
   list-style-type: none; }

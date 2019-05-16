@@ -5,3 +5,11 @@
   max-width: $max-width;
   margin: auto;
 }
+
+%font-prim {
+  font-family: $font-family-primary;
+}
+
+%font-sec {
+  font-family: $font-family-secondary;
+}

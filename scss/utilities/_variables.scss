@@ -1,9 +1,11 @@
 
-// Body ======================================================
+// Fonts ======================================================
 
+$font-url--google      : 'https://fonts.googleapis.com/css?family=Raleway|Roboto';
+$font-family-primary   : 'Raleway', sans-serif;
+$font-family-secondary : 'Roboto', sans-serif;
 $base__font-size       : 16px;
 $max-width             : 1200px;
-$break                 : 769px;
 
 $font-size: (
   'base'      : 1em,
@@ -67,3 +69,7 @@ $button-colors: (
   'warning'   : $deep-saffron,
   'info'      : $light-sea-green,
 );
+
+// Breakpoints ================================================
+
+$break                 : 769px;

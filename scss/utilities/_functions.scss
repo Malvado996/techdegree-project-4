@@ -2,6 +2,14 @@
 // Functions
 //=============================================================
 
+// Import Google Fonts =============================================
+
+@if variable-exists(font-url--google) {
+  @import url($font-url--google);
+}
+
+// Calculate Em ====================================================
+
 @function em($target, $context: $base__font-size) {
   @return ($target / $context) * 1em;
 }
