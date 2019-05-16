@@ -9,6 +9,12 @@ h1 {
 h2 {
   font-family: "Roboto", sans-serif; }
 
+.blockquote, .headline--primary {
+  text-shadow: -3px 2px 2px #969696; }
+
+.btn--default, .btn--success, .btn--error, .btn--warning, .btn--info {
+  box-shadow: -2px 5px 5px 0px rgba(50, 50, 50, 0.75); }
+
 body {
   color: #0a1128;
   background-color: #f4faff;

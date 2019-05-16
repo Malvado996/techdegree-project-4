@@ -16,6 +16,7 @@
   border-left: em(5px) solid $accent;
   border-radius: em(8px);
   padding-left: em(10px);
+  @extend %shadow;
 }
 
 // Headlines =========================================================================
@@ -25,6 +26,7 @@
   &--primary{
     font-size: map-get($font-size, xl);
     color: $paris-green;
+    @extend %shadow;
   }
 
   &--secondary{
